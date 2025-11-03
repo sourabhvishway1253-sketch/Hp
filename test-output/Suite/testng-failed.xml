@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Test2(failed)">
+    <parameter name="BROWSER" value="Edge"/>
+    <classes>
+      <class name="Campaign.Create_CampaignTest">
+        <methods>
+          <include name="AM"/>
+          <include name="AT"/>
+          <include name="AC"/>
+          <include name="BT"/>
+          <include name="AS"/>
+          <include name="Create_CampaignTest"/>
+          <include name="BC"/>
+          <include name="BS"/>
+          <include name="BM"/>
+        </methods>
+      </class> <!-- Campaign.Create_CampaignTest -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+  <test thread-count="5" parallel="tests" name="Test3(failed)">
+    <parameter name="BROWSER" value="Firefox"/>
+    <classes>
+      <class name="Organization.Create_OrganizationTest">
+        <methods>
+          <include name="AM"/>
+          <include name="AT"/>
+          <include name="AC"/>
+          <include name="BT"/>
+          <include name="AS"/>
+          <include name="BC"/>
+          <include name="BS"/>
+          <include name="BM"/>
+          <include name="Create_OrganizationTest"/>
+        </methods>
+      </class> <!-- Organization.Create_OrganizationTest -->
+    </classes>
+  </test> <!-- Test3(failed) -->
+  <test thread-count="5" parallel="tests" name="Test1(failed)">
+    <parameter name="BROWSER" value="CHROME"/>
+    <classes>
+      <class name="Product.Create_ProductTest">
+        <methods>
+          <include name="AM"/>
+          <include name="AT"/>
+          <include name="Create_ProductTest"/>
+          <include name="AC"/>
+          <include name="BT"/>
+          <include name="AS"/>
+          <include name="BC"/>
+          <include name="BS"/>
+          <include name="BM"/>
+        </methods>
+      </class> <!-- Product.Create_ProductTest -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->

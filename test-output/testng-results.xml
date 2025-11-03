@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-10-26T20:43:07 IST" name="Default suite" finished-at="2025-10-26T20:44:18 IST" duration-ms="71198">
+    <groups>
+      <group name="regressionTest">
+        <method signature="Create_Campaign_With_ProductTest.Create_Campaign_With_ProductTest()[pri:0, instance:Campaign.Create_Campaign_With_ProductTest@7b02881e]" name="Create_Campaign_With_ProductTest" class="Campaign.Create_Campaign_With_ProductTest"/>
+      </group> <!-- regressionTest -->
+    </groups>
+    <test started-at="2025-10-26T20:43:07 IST" name="Default test" finished-at="2025-10-26T20:44:18 IST" duration-ms="71198">
+      <class name="Campaign.Create_Campaign_With_ProductTest">
+        <test-method is-config="true" signature="BS()[pri:0, instance:Campaign.Create_Campaign_With_ProductTest@7b02881e]" started-at="2025-10-26T20:43:07 IST" name="BS" finished-at="2025-10-26T20:43:07 IST" duration-ms="84" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BS -->
+        <test-method is-config="true" signature="BT()[pri:0, instance:Campaign.Create_Campaign_With_ProductTest@7b02881e]" started-at="2025-10-26T20:43:07 IST" name="BT" finished-at="2025-10-26T20:43:07 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BT -->
+        <test-method is-config="true" signature="BC()[pri:0, instance:Campaign.Create_Campaign_With_ProductTest@7b02881e]" started-at="2025-10-26T20:43:07 IST" name="BC" finished-at="2025-10-26T20:43:15 IST" duration-ms="8253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BC -->
+        <test-method is-config="true" signature="BM()[pri:0, instance:Campaign.Create_Campaign_With_ProductTest@7b02881e]" started-at="2025-10-26T20:43:15 IST" name="BM" finished-at="2025-10-26T20:43:25 IST" duration-ms="9399" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BM -->
+        <test-method signature="Create_Campaign_With_ProductTest()[pri:0, instance:Campaign.Create_Campaign_With_ProductTest@7b02881e]" started-at="2025-10-26T20:43:25 IST" name="Create_Campaign_With_ProductTest" finished-at="2025-10-26T20:44:14 IST" duration-ms="49671" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Create_Campaign_With_ProductTest -->
+        <test-method is-config="true" signature="AM()[pri:0, instance:Campaign.Create_Campaign_With_ProductTest@7b02881e]" started-at="2025-10-26T20:44:14 IST" name="AM" finished-at="2025-10-26T20:44:17 IST" duration-ms="2772" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AM -->
+        <test-method is-config="true" signature="AC()[pri:0, instance:Campaign.Create_Campaign_With_ProductTest@7b02881e]" started-at="2025-10-26T20:44:17 IST" name="AC" finished-at="2025-10-26T20:44:18 IST" duration-ms="980" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AC -->
+        <test-method is-config="true" signature="AT()[pri:0, instance:Campaign.Create_Campaign_With_ProductTest@7b02881e]" started-at="2025-10-26T20:44:18 IST" name="AT" finished-at="2025-10-26T20:44:18 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AT -->
+        <test-method is-config="true" signature="AS()[pri:0, instance:Campaign.Create_Campaign_With_ProductTest@7b02881e]" started-at="2025-10-26T20:44:18 IST" name="AS" finished-at="2025-10-26T20:44:18 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AS -->
+      </class> <!-- Campaign.Create_Campaign_With_ProductTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
